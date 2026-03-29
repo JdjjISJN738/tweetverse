@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+websockets
+vaderSentiment
+pydantic
+python-multipart
+requests
+python-dotenv
+tweepy
+ntscraper
+pandas

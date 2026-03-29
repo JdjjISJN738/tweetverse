@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Vite
+.vite/
+
+# Heavy Data Files (Too large for GitHub)
+backend/app/resources/*.csv
+backend/app/resources/*.txt
+backend/app/resources/*.json
