@@ -63,6 +63,7 @@ class ScraperService:
         self.resources_dir = os.path.join(
             os.path.dirname(os.path.dirname(__file__)), "resources"
         )
+        os.makedirs(self.resources_dir, exist_ok=True)
         self.master_path = os.path.join(self.resources_dir, "master_tweets.json")
         self.historic_path = self.master_path # Primary fallback
         
